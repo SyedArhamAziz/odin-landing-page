@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 #part-one {
     background-color: #1F2937;
@@ -74,7 +75,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 170px;
 }
 .rounded-square {
     border: 2px;
@@ -86,6 +87,7 @@ h2 {
 .img-sub {
     color: #444;
     font-size: 16px;
+    font-family: sans-serif;
     text-align: center;
     line-height: 100%;
 }
@@ -114,4 +116,45 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-right: 30px;
+}
+
+#part-four {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 100px;
+}
+#blue-container {
+    width: 100%;
+    background-color: #3882F6;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3 {
+    margin: 0;
+}
+#sign-up-message {
+    margin: 0;
+    color: lightgray;
+}
+#button2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+#footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
