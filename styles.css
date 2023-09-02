@@ -41,12 +41,13 @@ h1 {
 }
 .button {
     background-color: #3882F6;
-    width: 100px;
-    height: 25px;
+    width: 120px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    border-radius: 10px;
 }
 #img-placeholder {
     background-color: #6D747D;
@@ -78,9 +79,10 @@ h2 {
     width: 170px;
 }
 .rounded-square {
-    border: 2px;
+    border: 4px;
     border-style: solid;
     border-color: #3882F6;
+    border-radius: 15px;
     height: 150px;
     width: 150px;
 }
